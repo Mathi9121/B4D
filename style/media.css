@@ -1,0 +1,10 @@
+@media screen and ( max-width:1025px){
+	.petitMenu{ display:inline; margin-bottom: 10px;}
+	.grandMenu{ display:none;}
+	#listeCateg{background: none;}
+}
+
+@media screen and (min-width:1025px){
+	.petitMenu{ display:none;}
+	.grandMenu{ display:inline;}
+}

@@ -1,0 +1,85 @@
+#listeCateg ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#listeCateg li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+#listeCateg li a:hover {
+    background-color: #3d4750;
+    color: white;
+}
+
+#lstChap ul{
+  list-style-type: circle;
+} 
+
+#lstChap ul li{
+  margin: 5px;
+}
+
+#lstChap ul li a{
+  color:black;
+}
+
+#lstChap ul li a:hover{
+  color:white;
+}
+
+#listeBD ul {
+  background: #A9A9A9;
+  padding: 0;
+  margin: 10px;
+}
+
+#listeBD li:first-child{
+  border-top: 1px solid black;
+}
+
+#listeBD li{
+  overflow: hidden;
+  text-align: left;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  list-style: none;
+}
+
+#listeBD ul li:hover{
+  background: #3d4750;
+  transition: 0.6s ease;
+}
+
+#listeBD p{
+  margin: 5px 0;
+}
+
+#listeBD a{
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+#listeBD p a img{
+  width: 30px !important;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+#titreTaille{
+  /*font-weight: bold;*/
+  font-size: 17px;
+}
+
+ul li p span{
+  display: block;
+  margin-left: 50px;
+}
